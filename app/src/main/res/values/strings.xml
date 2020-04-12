@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Medical Store.</string>
+    <string name="Open_Close_10pm">Open - 7:00 AM and Close - 10:00 PM</string>
+    <string name="phn_no">Call at - 8601722xxx</string>
+</resources>

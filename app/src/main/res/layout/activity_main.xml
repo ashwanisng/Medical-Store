@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffa726"
+        >
+
+        <TextView
+            android:id="@+id/bajrang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:text="Bajrang Medical" />
+
+        <ImageView
+            android:id="@+id/appPic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic"
+            android:layout_below="@+id/bajrang"
+            android:scaleType="center"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_below="@+id/appPic"
+            android:layout_marginTop="8dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="4dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bajrang Medical is the India’s 1st and most popular mobile app for medical stores to increase their sales and expand business instantly. It is the perfect app for pharmacy owners to open up new shop (24X7) to deliver better quality of service to their customers/patients by saving their time and provide home delivery of medicines."
+            android:layout_below="@+id/dis"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_below="@+id/detail"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="4dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/shopAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:text="Near Chandra Residency, Hukulganj Varanasi, Uttar Pradesh, 221002"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:paddingLeft="8dp"
+            android:paddingBottom="4dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/opening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Open_Close_10pm"
+            android:layout_below="@+id/shopAdd"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:paddingLeft="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opening"
+            android:text="@string/phn_no"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:paddingBottom="4dp">
+        </TextView>
+
+    </RelativeLayout>
+</ScrollView>
